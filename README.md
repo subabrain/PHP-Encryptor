@@ -1,5 +1,3 @@
----
-
 ## 🧩 Using the PHP Extension
 
 ![grafik](https://github.com/user-attachments/assets/ed213f9b-8f32-42a1-81d1-d4b69a25e91d)
@@ -41,6 +39,6 @@ decrypt_and_eval("encrypted_php.bin", "encrypted_key.bin");
 
 Now you can use encrypted php files :)
 
-### Important ###
+### Important
 
 Use this at your own Risk!
