@@ -17,7 +17,7 @@ A complete solution for protecting your PHP scripts:
 
 ## 🖥️ 1. Qt Encryptor App
 
-![grafik](https://github.com/user-attachments/assets/d84c37bb-ac5c-4744-b1aa-87d8a0f60365)
+![grafik](https://github.com/user-attachments/assets/aabeb959-1b91-44dc-b37a-8c9ca3dd8696)
 
 
 **Encrypt your PHP files with or without a graphical interface.**
