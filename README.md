@@ -48,11 +48,11 @@ php_encryptor.exe input.php encrypted_php.bin encrypted_key.bin "mySecretKey"
 ./php_encryptor input.php encrypted_php.bin encrypted_key.bin "mySecretKey"
 ```
 
-## 🧩 Using the PHP Extension
+## 🧩 2. Using the PHP Extension
 
 The included **PHP extension** (`php_encryptor_extension.dll`) allows you to securely decrypt and run your encrypted PHP scripts at runtime.
 
-### 📥 2. Installation
+### 📥 Installation
 
 1. **Copy the required files:**
     - `phpcpp.dll`  
