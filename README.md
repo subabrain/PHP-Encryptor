@@ -14,7 +14,7 @@ The included **PHP extension** (`php_encryptor_extension.dll`) allows you to sec
     - `libssl-1_1-x64.dll`  
     into your PHP directory where your php.exe is stored. You can find them in this Repository.
 
-    Now copy these File `php_encryptor_extension.dll` from this repository into the PHP ext/ folder.
+    Now copy this File `php_encryptor_extension.dll` from this repository into the PHP ext/ folder.
 
 2. **Edit your `php.ini`:**
 
