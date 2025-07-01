@@ -41,8 +41,10 @@ decrypt_and_eval("encrypted_php.bin", "encrypted_key.bin");
 ?>
 ```
 
+Now you can use encrypted php files :)
+
 ### Important
 
-Now you can use encrypted php files :)
+Please notice: this is just a way to encrypt php files from look into your code - but its not said that somebody can do revers engineering ;)
 
 Use this at your own Risk!
