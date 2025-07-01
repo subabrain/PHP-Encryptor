@@ -56,8 +56,6 @@ The included **PHP extension** (`php_encryptor_extension.dll`) allows you to sec
 
 1. **Copy the required files:**
     - `phpcpp.dll`  
-    - `libcrypto-1_1-x64.dll`  
-    - `libssl-1_1-x64.dll`  
     into your PHP directory where your `php.exe` is stored. You can find them in this repository.
 
     Then copy  
@@ -70,13 +68,18 @@ The included **PHP extension** (`php_encryptor_extension.dll`) allows you to sec
     ```ini
     extension=extension_encrypt
     ```
+    And change the extension directory
+   ```ini
+    ; On windows:
+    extension_dir = "ext"
+    ```
 
     > **Note:**  
-    > - Make sure that `phpcpp.dll`, `libcrypto-1_1-x64.dll`, and `libssl-1_1-x64.dll` are either in the same directory as your `php.exe` or available in your system `PATH`.  
+    > - Make sure that `phpcpp.dll` are either in the same directory as your `php.exe` or available in your system `PATH`.  
     > - The DLLs must match your PHP’s architecture (here x64).
     > - The extension filename in php.ini **should not** include `.dll` or `.so` on Windows (just `extension=extension_encrypt`).
 
-3. **Restart your web server** or the PHP process (if running as a service).
+4. **Restart your web server** or the PHP process (if running as a service).
 
 
 ### 📝 Usage in PHP
