@@ -1,8 +1,8 @@
 # 🔒 PHP Encryptor Suite
 
 A complete solution for protecting your PHP scripts:
-- **Encrypt** your code with a modern Qt desktop app (GUI & CLI, Windows & Linux)
-- **Decrypt & execute** at runtime with a PHP extension (Windows & Linux, cross-platform)
+- **Encrypt** your code with a modern Qt desktop app (GUI & CLI, Windows)
+- **Decrypt & execute** at runtime with a PHP extension (Windows)
 
 ![grafik](https://github.com/user-attachments/assets/a4cba82c-4a96-4d2d-9ddf-2e10823bbf5b)
 
@@ -43,9 +43,6 @@ You will get two files:
 ```sh
 # Windows
 php_encryptor.exe input.php encrypted_php.bin encrypted_key.bin "mySecretKey"
-
-# Linux
-./php_encryptor input.php encrypted_php.bin encrypted_key.bin "mySecretKey"
 ```
 
 ## 🧩 2. Using the PHP Extension
