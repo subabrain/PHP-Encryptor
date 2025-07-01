@@ -19,7 +19,7 @@ The included **PHP extension** (`php_encryptor_extension.dll`) allows you to sec
 
     Add the following line:
     ```ini
-    extension=php_encryptor_extension.dll
+    extension=extension_encrypt
     ```
 
     > **Note:**  
