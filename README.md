@@ -4,6 +4,8 @@
 
 The included **PHP extension** (`php_encryptor_extension.dll`) allows you to securely decrypt and run your encrypted PHP scripts at runtime.
 
+
+
 ### 📥 Installation
 
 1. **Copy the files:**
@@ -27,6 +29,24 @@ The included **PHP extension** (`php_encryptor_extension.dll`) allows you to sec
 3. **Restart your web server** or the PHP process (if running as a service).
 
 ### 📝 Usage in PHP
+
++--------------+            +-----------------+             +---------------------+
+|  Qt Encrypt  |  writes    |  Encrypted PHP  |   loads     |   PHP Extension     |
+|  GUI / CLI   +----------->|   + Key File    +------------>| (has master key)    |
+| (User inputs |            |  (AES encrypted)|             |                     |
+|  PHP + Key)  |            +-----------------+             +---------------------+
++--------------+                                                 |
+      |                                                          |
+      v                                                          v
+ [Generates User Key]                               [Reads both encrypted files]
+      |                                                          |
+ [Encrypts PHP file with user key]            [Decrypts user key with master key]
+      |                                                          |
+ [Encrypts user key with master key]          [Decrypts PHP with decrypted user key]
+      |                                                          |
+      +--> Encrypted PHP   -->    used in    -->   [php eval()] (executes code)
+           Encrypted Key File       PHP
+
 
 After installing the extension, decrypt and run your encrypted script with:
 
