@@ -54,6 +54,8 @@ The included **PHP extension** (`php_encryptor_extension.dll`) allows you to sec
 
 ### 📥 Installation
 
+This Version is compiled for PHP 8.0.11 (Windows NTS - other OS/Verions will follow) - you can grab it here: https://windows.php.net/downloads/releases/archives/php-8.0.11-nts-Win32-vs16-x64.zip
+
 1. **Copy the required files:**
     - `phpcpp.dll`  
     into your PHP directory where your `php.exe` is stored. You can find them in this repository.
