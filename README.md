@@ -79,7 +79,7 @@ The included **PHP extension** (`php_encryptor_extension.dll`) allows you to sec
 3. **Restart your web server** or the PHP process (if running as a service).
 
 
-### 📝 3. Usage in PHP
+### 📝 Usage in PHP
 
 After installing the extension, decrypt and run your encrypted script with:
 
