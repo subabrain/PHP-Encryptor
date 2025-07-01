@@ -7,11 +7,11 @@ The included **PHP extension** (`php_encryptor_extension.dll`) allows you to sec
 ### 📥 Installation
 
 1. **Copy the files:**
-    - `php_encryptor_extension.dll`  
     - `phpcpp.dll`  
     - `libcrypto-1_1-x64.dll`  
     - `libssl-1_1-x64.dll`  
-    into your PHP extension directory (usually `ext/`) or the same folder as your PHP script (for testing).
+    into your PHP directory where your php.exe is stored. You can find them in this Repository.
+    Now copy these File `php_encryptor_extension.dll` from this repository into the PHP ext/ folder.
 
 2. **Edit your `php.ini`:**
 
