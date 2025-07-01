@@ -26,8 +26,6 @@ The included **PHP extension** (`php_encryptor_extension.dll`) allows you to sec
 
 3. **Restart your web server** or the PHP process (if running as a service).
 
----
-
 ### 📝 Usage in PHP
 
 After installing the extension, decrypt and run your encrypted script with:
@@ -37,8 +35,8 @@ After installing the extension, decrypt and run your encrypted script with:
 decrypt_and_eval("encrypted_php.bin", "encrypted_key.bin");
 ?>
 
-Now you can use encrypted php files :)
+### 📝 Important
 
-### Important
+Now you can use encrypted php files :)
 
 Use this at your own Risk!
