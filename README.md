@@ -38,10 +38,6 @@ You will get two files:
 - `encrypted_php.bin`  
 - `encrypted_key.bin`
 
-<p align="center">
-  <img src="assets/php_encryptor_gui.png" width="440" alt="Qt GUI Screenshot"/>
-</p>
-
 ### CLI Mode
 
 ```sh
@@ -50,6 +46,7 @@ php_encryptor.exe input.php encrypted_php.bin encrypted_key.bin "mySecretKey"
 
 # Linux
 ./php_encryptor input.php encrypted_php.bin encrypted_key.bin "mySecretKey"
+```
 
 ## 🧩 Using the PHP Extension
 
