@@ -33,9 +33,9 @@ After installing the extension, decrypt and run your encrypted script with:
 ```php
 <?php
 decrypt_and_eval("encrypted_php.bin", "encrypted_key.bin");
-?>
+?>```
 
-**Important**
+### Important
 
 Now you can use encrypted php files :)
 
