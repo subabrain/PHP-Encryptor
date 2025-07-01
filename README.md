@@ -25,7 +25,6 @@ A complete solution for protecting your PHP scripts:
 ### GUI Mode
 
 - **Windows:** Double-click `php_encryptor.exe`
-- **Linux:** Run `./php_encryptor` in the terminal (may require `chmod +x`)
 
 **Fill in:**
 - **PHP Script:** Your source `.php` file
