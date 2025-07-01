@@ -30,22 +30,7 @@ The included **PHP extension** (`php_encryptor_extension.dll`) allows you to sec
 
 ### 📝 Usage in PHP
 
-+--------------+            +-----------------+             +---------------------+
-|  Qt Encrypt  |  writes    |  Encrypted PHP  |   loads     |   PHP Extension     |
-|  GUI / CLI   +----------->|   + Key File    +------------>| (has master key)    |
-| (User inputs |            |  (AES encrypted)|             |                     |
-|  PHP + Key)  |            +-----------------+             +---------------------+
-+--------------+                                                 |
-      |                                                          |
-      v                                                          v
- [Generates User Key]                               [Reads both encrypted files]
-      |                                                          |
- [Encrypts PHP file with user key]            [Decrypts user key with master key]
-      |                                                          |
- [Encrypts user key with master key]          [Decrypts PHP with decrypted user key]
-      |                                                          |
-      +--> Encrypted PHP   -->    used in    -->   [php eval()] (executes code)
-           Encrypted Key File       PHP
+![grafik](https://github.com/user-attachments/assets/b3dbb2a3-01c0-4644-bfe2-f18d05e9da03)
 
 
 After installing the extension, decrypt and run your encrypted script with:
